@@ -1,0 +1,20 @@
+[project]
+name = "qarqi"
+version = "0.1.0"
+description = "Quantum Architecture for Real-time Qu-DIT Imaging"
+authors = [
+    {name = "Keno S. Jose"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "opencv-python",
+    "mqt.qudits"
+]
+
+[project.scripts]
+qarqi = "qarqi.cli.main:main_cli"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

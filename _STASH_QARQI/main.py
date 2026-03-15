@@ -61,7 +61,7 @@ if __name__ == "__main__":
     bin_of_n = 2*(n**2)
     tests = 100
     do_tests = False
-    shots = [1000,4000,16000,64000,1000,4000,16000,64000,1000,4000,16000,64000]
+    shots = [100]
     run_psnr = []
     run_mse = []
     rows = []

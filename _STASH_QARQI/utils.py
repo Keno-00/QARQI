@@ -60,15 +60,25 @@ def empty_bin():
 def make_bins(counts, d):
     bins = defaultdict(empty_bin)
 
-    for i in counts: #for each i na makuha natin, hanapin natin yung respective register
-        #print(i) # i is a state count
-        b0, b1, x0, x1,h = decode_index(i,d)
-        key = (b0, b1, x0, x1)
-        if h == 1:
-            bins[key]["hit"] += 1
-        else:
-            bins[key]["miss"] += 1
-        bins[key]["trials"] += 1
+    if isinstance(counts, dict):
+        for i, count in counts.items():
+            b0, b1, x0, x1,h = decode_index(i,d)
+            key = (b0, b1, x0, x1)
+            if h == 1:
+                bins[key]["hit"] += count
+            else:
+                bins[key]["miss"] += count
+            bins[key]["trials"] += count
+    else:
+        for i in counts: #for each i na makuha natin, hanapin natin yung respective register
+            #print(i) # i is a state count
+            b0, b1, x0, x1,h = decode_index(i,d)
+            key = (b0, b1, x0, x1)
+            if h == 1:
+                bins[key]["hit"] += 1
+            else:
+                bins[key]["miss"] += 1
+            bins[key]["trials"] += 1
 
     return bins
 
