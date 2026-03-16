@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Jose"
     given-names: "Keno S."
-title: "QARQI: Quantum Architecture for Real-time Qu-DIT Imaging"
+title: "QARQI: Quadrant Amplitude Representation of Quantum Images"
 version: 0.1.0
 date-released: 2026-03-14
 url: "https://github.com/Keno-00/qarqi"

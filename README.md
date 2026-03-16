@@ -1,4 +1,4 @@
-# QARQI: Quantum Architecture for Real-time Qu-DIT Imaging
+# QARQI: Quadrant Amplitude Representation of Quantum Images
 
 [![CI](https://github.com/Keno-00/qarqi/actions/workflows/ci.yml/badge.svg)](https://github.com/Keno-00/qarqi/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

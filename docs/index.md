@@ -1,6 +1,6 @@
 # Welcome to QARQI
 
-QARQI (Quantum Architecture for Real-time Qu-DIT Imaging) is a framework for representing and simulating images using high-dimensional quantum systems (qudits).
+QARQI (Quadrant Amplitude Representation of Quantum Images) is a framework for representing and simulating images using high-dimensional quantum systems (qudits).
 
 ## Overview
 
